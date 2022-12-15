@@ -1,4 +1,4 @@
-# out-of-distribution-detection-resources
+# Out-of-distribution Detection
 
 
 
