@@ -1,56 +1,64 @@
 # Awesome Out-of-distribution detection(OOD) papers with taxonomy tag
 
 ## Preliminary
-This repository is a collection of significant works published at top-tier conference in the topic of out-of-distribution detection. To facilitate better paper reading, papers are listed with their code (if publicly available) along with their tags in terms of (settings, modalities, approaches, etc.). Below are explanation for corresponding tags that might be useful for readers.
+This repository is a collection of representative works published at top-tier conference in the topic of out-of-distribution detection. To facilitate better paper reading, papers are listed with their code (if publicly available) along with their tags in terms of (settings, modalities, approaches, etc.). Below are explanation for corresponding tags that might be useful for readers.
 
 ## Tags for OOD papers
-![Posthoc]: An OOD scoring function to detect OOD samples is employed based on the pretrained deep neural network (could be logit-based or feature-based).
+
+### Methods:
+
+![Posthoc]: An OOD scoring function to detect OOD samples is employed based on the pretrained deep neural network.
 
 ![Training]: Training procedure is modified to faciliate model's capability in detecting out-of-distribution samples 
 
+![Posthoc-G]:
+
 ![Theoretical Analysis/Insights]: Theoretical justification for method is provided, or theoretical analysis is investigated to study the behavior of model on OOD data.
 
-![Adversarial]
+### Data:
 
-![Benchmark/Observational Analysis]: New benchmark or problem setting is provided. Experimental results are thoroughly observed to provide some insights, novel findings, etc.
+![Adversarial]: Proposed methods are also evaluated on adversarial samples along with out-of-distribution samples
+
+![Benchmark/Observational Analysis]: New benchmark, evaluation protocol or problem setting is introduced. Comparison between existing methods are thoroughly demonstrated and discussed to address some research questions and provide insights on their limitation, and novel findings based on experimental results.
 
 ![InputPreprocessing]: Inputs are preprocessed(pertubated) before being fed to the model.
 
+![New dataset]: A novel OOD dataset from other domain is introduced (not including images, texts, or graphs).
 
 ## List of OOD papers
 
 ### NeurIPS
 
-![](https://img.shields.io/badge/NeurIPS2017-blue) &nbsp; [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://arxiv.org/pdf/1612.01474.pdf)
+![](https://img.shields.io/badge/NeurIPS2018-blue) &nbsp; [Out-of-Distribution Detection using Multiple Semantic Label Representations](https://proceedings.neurips.cc/paper_files/paper/2018/file/2151b4c76b4dcb048d06a5c32942b6f6-Paper.pdf) ![Training] ![Adversarial]
 
-![](https://img.shields.io/badge/NeurIPS2018-blue) &nbsp; [Out-of-Distribution Detection using Multiple Semantic Label Representations](https://proceedings.neurips.cc/paper_files/paper/2018/file/2151b4c76b4dcb048d06a5c32942b6f6-Paper.pdf)
-
-![](https://img.shields.io/badge/NeurIPS2018-blue) &nbsp; [Predictive Uncertainty Estimation via Prior Networks](https://arxiv.org/pdf/1802.10501.pdf)
+![](https://img.shields.io/badge/NeurIPS2018-blue) &nbsp; [Predictive Uncertainty Estimation via Prior Networks](https://arxiv.org/pdf/1802.10501.pdf) ![Benchmark/Observational Analysis]
 
 ![](https://img.shields.io/badge/NeurIPS2018-blue) &nbsp; [A Simple Unified Framework for Detecting
-Out-of-Distribution Samples and Adversarial Attacks](https://arxiv.org/pdf/1807.03888.pdf)
+Out-of-Distribution Samples and Adversarial Attacks](https://arxiv.org/pdf/1807.03888.pdf)![Posthoc]![Adversarial] ![InputPreprocessing]
 
-![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Detecting Out-of-Distribution Examples with In-distribution Examples and Gram Matrices](https://arxiv.org/pdf/1912.12510.pdf)
+![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Detecting Out-of-Distribution Examples with In-distribution Examples and Gram Matrices](https://arxiv.org/pdf/1912.12510.pdf)![Posthoc]
 
-![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Likelihood Ratios for Out-of-Distribution Detection](https://proceedings.neurips.cc/paper/2019/file/1e79596878b2320cac26dd792a6c51c9-Paper.pdf)      
+![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Likelihood Ratios for Out-of-Distribution Detection](https://proceedings.neurips.cc/paper/2019/file/1e79596878b2320cac26dd792a6c51c9-Paper.pdf) ![Posthoc] ![Benchmark/Observational Analysis] ![New dataset] ![InputPreprocessing]
 
-![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://proceedings.neurips.cc/paper/2019/file/a2b15837edac15df90721968986f7f8e-Paper.pdf)
+![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://proceedings.neurips.cc/paper/2019/file/a2b15837edac15df90721968986f7f8e-Paper.pdf) ![Self-supervision] ![Adversarial]
 
-![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Can you trust your model’s uncertainty? Evaluating predictive uncertainty under dataset shift.](https://proceedings.neurips.cc/paper/2019/file/8558cb408c1d76621371888657d2eb1d-Paper.pdf)
+![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Can you trust your model’s uncertainty? Evaluating predictive uncertainty under dataset shift.](https://proceedings.neurips.cc/paper/2019/file/8558cb408c1d76621371888657d2eb1d-Paper.pdf) ![Benchmark/Observational Analysis]
 
-![](https://img.shields.io/badge/NeurIPS2020-blue) &nbsp; [Energy-based Out-of-distribution Detection](https://proceedings.neurips.cc/paper/2020/file/f5496252609c43eb8a3d147ab9b9c006-Paper.pdf)
+![](https://img.shields.io/badge/NeurIPS2020-blue) &nbsp; [Likelihood Regret: An Out-of-Distribution Detection
+Score For Variational Auto-encoder](https://arxiv.org/pdf/2003.02977.pdf)
 
-![](https://img.shields.io/badge/NeurIPS2020-blue) &nbsp; [Csi: Novelty detection via contrastive learning on distributionally shifted instances](https://proceedings.neurips.cc/paper/2020/file/8965f76632d7672e7d3cf29c87ecaa0c-Paper.pdf)
+![](https://img.shields.io/badge/NeurIPS2020-blue) &nbsp; [Energy-based Out-of-distribution Detection](https://proceedings.neurips.cc/paper/2020/file/f5496252609c43eb8a3d147ab9b9c006-Paper.pdf) ![Posthoc] ![Training]
 
-![](https://img.shields.io/badge/NeurIPS2020-blue) &nbsp; [Measuring Robustness to Natural Distribution Shifts in Image Classification](https://proceedings.neurips.cc/paper/2020/file/d8330f857a17c53d217014ee776bfd50-Paper.pdf)
+![](https://img.shields.io/badge/NeurIPS2020-blue) &nbsp; [Csi: Novelty detection via contrastive learning on distributionally shifted instances](https://proceedings.neurips.cc/paper/2020/file/8965f76632d7672e7d3cf29c87ecaa0c-Paper.pdf) ![Posthoc] ![Training]
 
-![](https://img.shields.io/badge/NeurIPS2021-blue) &nbsp; [Can multi-label classification networks know what they don’t know?](https://proceedings.neurips.cc/paper/2021/file/f3b7e5d3eb074cde5b76e26bc0fb5776-Paper.pdf)
 
-![](https://img.shields.io/badge/NeurIPS2021-blue) &nbsp; [ReAct: Out-of-distribution Detection With Rectified Activations](https://arxiv.org/pdf/2111.12797.pdf)
+![](https://img.shields.io/badge/NeurIPS2021-blue) &nbsp; [Can multi-label classification networks know what they don’t know?](https://proceedings.neurips.cc/paper/2021/file/f3b7e5d3eb074cde5b76e26bc0fb5776-Paper.pdf) ![Posthoc] ![Benchmark/Observational Analysis] ![Theoretical Analysis]
 
-![](https://img.shields.io/badge/NeurIPS2021-blue) &nbsp; [On the Importance of Gradients for Detecting Distributional Shifts in the Wild](https://proceedings.neurips.cc/paper/2021/file/063e26c670d07bb7c4d30e6fc69fe056-Paper.pdf)
+![](https://img.shields.io/badge/NeurIPS2021-blue) &nbsp; [ReAct: Out-of-distribution Detection With Rectified Activations](https://arxiv.org/pdf/2111.12797.pdf) ![Posthoc] ![Theoretical Analysis]
 
-![](https://img.shields.io/badge/NeurIPS2021-blue) &nbsp; [Exploring the Limits of Out-of-Distribution Detection](https://proceedings.neurips.cc/paper/2021/file/3941c4358616274ac2436eacf67fae05-Paper.pdf)
+![](https://img.shields.io/badge/NeurIPS2021-blue) &nbsp; [On the Importance of Gradients for Detecting Distributional Shifts in the Wild](https://proceedings.neurips.cc/paper/2021/file/063e26c670d07bb7c4d30e6fc69fe056-Paper.pdf) ![Posthoc] ![Theoretical Analysis]
+
+![](https://img.shields.io/badge/NeurIPS2021-blue) &nbsp; [Exploring the Limits of Out-of-Distribution Detection](https://proceedings.neurips.cc/paper/2021/file/3941c4358616274ac2436eacf67fae05-Paper.pdf) ![Benchmark/Observational Analysis]
 
 ![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Density-driven Regularization for Out-of-distribution Detection](https://openreview.net/pdf?id=aZQJMVx8fk)
 
