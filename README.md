@@ -1,7 +1,7 @@
 # Awesome Out-of-distribution detection(OOD) papers with taxonomy tag
 
 ## Preliminary
-This repository is a collection of significant works published at top-tier conferencein the topic of out-of-distribution detection. To facilitate better paper reading, papers are listed with their code (if publicly available) along with their tags in terms of (settings, modalities, approaches, etc.). Below are explanation for corresponding tags that might be useful for readers.
+This repository is a collection of significant works published at top-tier conference in the topic of out-of-distribution detection. To facilitate better paper reading, papers are listed with their code (if publicly available) along with their tags in terms of (settings, modalities, approaches, etc.). Below are explanation for corresponding tags that might be useful for readers.
 
 ## Tags for OOD papers
 ![Posthoc]: An OOD scoring function to detect OOD samples is employed based on the pretrained deep neural network (could be logit-based or feature-based).
