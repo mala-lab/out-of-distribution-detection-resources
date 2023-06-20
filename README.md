@@ -23,6 +23,8 @@ This repository is a collection of representative works published at top-tier co
 
 ![Multimodal]: Other modalities are also incorporated, possibly large pretrained multimodal model for vision and langauge is exploited, for example CLIP, etc.
 
+![Others]: Papers with this tag are quite niche and they contribute with something new which is unlike to most of other OOD papers. They could be uncommon novel framework for solving OOD problems or special relevant combination of OOD with an existing challenging problem such as few-shot, one-shot, long-tail, etc.
+
 ## List of OOD papers
 
 ### NeurIPS
