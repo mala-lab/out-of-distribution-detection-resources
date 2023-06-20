@@ -1,7 +1,7 @@
 # Awesome Out-of-distribution detection(OOD) papers with taxonomy tag
 
 ## Preliminary
-This repository is a collection of representative works published at top-tier conference in the topic of out-of-distribution detection. To facilitate better paper reading, papers are listed with their code (if publicly available) along with their tags in terms of (settings, modalities, approaches, etc.). Below are explanation for corresponding tags that might be useful for readers.
+This repository is a collection of representative works published at top-tier conference in the topic of out-of-distribution detection for computer vision benchmarks. To facilitate better paper reading, papers are listed with their code (if publicly available) along with their tags in terms of (settings, modalities, approaches, etc.). Below are explanation for corresponding tags that might be useful for readers.
 
 ## Tags for OOD papers
 
@@ -11,13 +11,15 @@ This repository is a collection of representative works published at top-tier co
 
 ![Theoretical Analysis/Insights]: Theoretical justification for method is provided, or theoretical analysis is investigated to study the behavior of model on OOD data.
 
-![Adversarial]: Proposed methods are also evaluated on adversarial samples along with out-of-distribution samples
+![Adversarial]: Proposed methods are also evaluated on adversarial samples along with out-of-distribution samples, or an adversarial setting is also setup to evaluate the model's performance
 
 ![Benchmark/Observational Analysis]: New benchmark, evaluation protocol or problem setting is introduced. Comparison between existing methods are thoroughly demonstrated and discussed to address some research questions and provide insights on their limitation, and novel findings based on experimental results.
 
 ![InputPreprocessing]: Inputs are preprocessed(pertubated) before being fed to the model.
 
 ![New dataset]: A novel OOD dataset from other domain is introduced (not including images, texts, or graphs).
+
+![Multimodal]: Other modalities are also incorporated, possibly large pretrained multimodal model for vision and langauge is exploited, for example CLIP, etc.
 
 ## List of OOD papers
 
@@ -55,36 +57,29 @@ Score For Variational Auto-encoder](https://arxiv.org/pdf/2003.02977.pdf) ![Post
 
 ![](https://img.shields.io/badge/NeurIPS2021-blue) &nbsp; [Exploring the Limits of Out-of-Distribution Detection](https://proceedings.neurips.cc/paper/2021/file/3941c4358616274ac2436eacf67fae05-Paper.pdf) ![Benchmark/Observational Analysis]
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Density-driven Regularization for Out-of-distribution Detection](https://openreview.net/pdf?id=aZQJMVx8fk)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Density-driven Regularization for Out-of-distribution Detection](https://openreview.net/pdf?id=aZQJMVx8fk) ![Training] ![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [UQGAN: A Unified Model for Uncertainty Quantification of Deep Classifiers trained via Conditional GANs](https://openreview.net/pdf?id=djOANbV2zSu)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [UQGAN: A Unified Model for Uncertainty Quantification of Deep Classifiers trained via Conditional GANs](https://openreview.net/pdf?id=djOANbV2zSu) ![Training]
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Delving into Out-of-Distribution Detection with Vision-Language Representations](https://openreview.net/pdf?id=KnCS9390Va)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Delving into Out-of-Distribution Detection with Vision-Language Representations](https://openreview.net/pdf?id=KnCS9390Va) ![Posthoc] ![Theoretical Analysis/Insights] ![Multimodal] ![Benchmark/Observational Analysis]
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [SIREN: Shaping Representations for Detecting Out-of-Distribution Objects](https://openreview.net/pdf?id=8E8tgnYlmN)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [SIREN: Shaping Representations for Detecting Out-of-Distribution Objects](https://openreview.net/pdf?id=8E8tgnYlmN) ![Training]                     <ood for object detection>
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Is Out-of-Distribution Detection Learnable?](https://openreview.net/pdf?id=sde_7ZzGXOE)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Is Out-of-Distribution Detection Learnable?](https://openreview.net/pdf?id=sde_7ZzGXOE) ![Theoretical Analysis/Insights]
 
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Your Out-of-Distribution Detection Method is Not Robust!](https://openreview.net/pdf?id=YUEP3ZmkL1)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Your Out-of-Distribution Detection Method is Not Robust!](https://openreview.net/pdf?id=YUEP3ZmkL1) ![Training] ![Adversarial]  <Generative>
 
 ![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [RankFeat: Rank-1 Feature Removal for Out-of-distribution Detection](https://openreview.net/pdf?id=-deKNiSOXLG)
+![Posthoc] ![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Out-of-Distribution Detection with An Adaptive Likelihood Ratio on Informative Hierarchical VAE](https://openreview.net/pdf?id=vMQ1V_z0TxU)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Out-of-Distribution Detection with An Adaptive Likelihood Ratio on Informative Hierarchical VAE](https://openreview.net/pdf?id=vMQ1V_z0TxU) ![Training] ![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Boosting Out-of-distribution Detection with Typical Features](https://openreview.net/pdf?id=4maAiUt0A4)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Boosting Out-of-distribution Detection with Typical Features](https://openreview.net/pdf?id=4maAiUt0A4) ![Posthoc]![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Beyond Mahalanobis Distance for Textual OOD Detection](https://openreview.net/pdf?id=ReB7CCByD6U)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Out-of-Distribution Detection via Conditional Kernel Independence Model](https://openreview.net/pdf?id=rTTh1RIn6E) ![Training] ![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Out-of-Distribution Detection via Conditional Kernel Independence Model](https://openreview.net/pdf?id=rTTh1RIn6E)
-
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [GraphDE: A Generative Framework for Debiased Learning and Out-of-Distribution Detection on Graphs](https://openreview.net/pdf?id=mSiPuHIP7t8)
-
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Deep Ensembles Work, But Are They Necessary?](https://arxiv.org/pdf/2202.06985.pdf)
-
-![](https://img.shields.io/badge/NeurIPS2022-blue)
-
-![](https://img.shields.io/badge/NeurIPS2022-blue)
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Deep Ensembles Work, But Are They Necessary?](https://arxiv.org/pdf/2202.06985.pdf) ![Theoretical Analysis/Insights]
 
 ### ICLR
 
