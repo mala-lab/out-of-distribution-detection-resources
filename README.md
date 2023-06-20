@@ -9,11 +9,11 @@ This repository is a collection of representative works published at top-tier co
 
 ![Posthoc]: An OOD scoring function to detect OOD samples is employed based on the pretrained deep neural network.
 
-![Training]: Training procedure is modified to faciliate model's capability in detecting out-of-distribution samples 
+![Training]: Training procedure is modified to faciliate model's capability in detecting out-of-distribution samples.
 
 ![Theoretical Analysis/Insights]: Theoretical justification for method is provided, or theoretical analysis is investigated to study the behavior of model on OOD data.
 
-![Adversarial]: Proposed methods are also evaluated on adversarial samples along with out-of-distribution samples, or an adversarial setting is also setup to evaluate the model's performance
+![Adversarial]: Proposed methods are also evaluated on adversarial samples along with out-of-distribution samples, or an adversarial setting is also setup to evaluate the model's performance.
 
 ![Benchmark/Observational Analysis]: New benchmark, evaluation protocol or problem setting is introduced. Comparison between existing methods are thoroughly demonstrated and discussed to address some research questions and provide insights on their limitation, and novel findings based on experimental results.
 
@@ -21,7 +21,7 @@ This repository is a collection of representative works published at top-tier co
 
 ![New dataset]: A novel OOD dataset from other domain is introduced (not including images, texts, or graphs).
 
-![Multimodal]: Other modalities are also incorporated, possibly large pretrained multimodal model for vision and langauge is exploited, for example CLIP, etc.
+![Multimodal]: Other modalities are also incorporated, possibly large pretrained multimodal model for vision and language is exploited, for example CLIP, etc.
 
 ## List of OOD papers
 
