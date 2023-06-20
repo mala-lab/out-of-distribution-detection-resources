@@ -9,7 +9,7 @@ This repository is a collection of representative works published at top-tier co
 
 ![Posthoc]: An OOD scoring function to detect OOD samples is employed based on the pretrained deep neural network.
 
-![Training]: Training procedure is modified to faciliate model's capability in detecting out-of-distribution samples 
+![Training]: Training procedure is modified to faciliate model's capability in detecting out-of-distribution samples. Models could be finetuned to accept outlier samples or trained in an end-to-end manner with additional synthesis outlier samples.
 
 ![Theoretical Analysis/Insights]: Theoretical justification for method is provided, or theoretical analysis is investigated to study the behavior of model on OOD data.
 
@@ -19,9 +19,11 @@ This repository is a collection of representative works published at top-tier co
 
 ![InputPreprocessing]: Inputs are preprocessed(pertubated) before being fed to the model.
 
-![New dataset]: A novel OOD dataset from other domain is introduced (not including images, texts, or graphs).
+![New dataset]: A novel OOD dataset from other domain is introduced (not including images, texts, or graphs) within the evaluation protocol.
 
 ![Multimodal]: Other modalities are also incorporated, possibly large pretrained multimodal model for vision and langauge is exploited, for example CLIP, etc.
+
+![Others]: Papers with this tag are quite niche and they often contribute with something new which are unlike to most of OOD papers. They could be an entirely new framework for solving OOD problem or a very special novel setting which bring together ODD and an existing problem which is under-explored yet relevant in the field such as few-shot/one shot OOD, long-tail OOD, continual OOD, etc.
 
 ## List of OOD papers
 
@@ -84,45 +86,44 @@ Score For Variational Auto-encoder](https://arxiv.org/pdf/2003.02977.pdf) ![Post
 ### ICLR
 
 ![](https://img.shields.io/badge/ICLR2017-violet) &nbsp; [A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks
-](https://arxiv.org/pdf/1610.02136.pdf)
+](https://arxiv.org/pdf/1610.02136.pdf) ![Posthoc] ![Benchmark/Observational Analysis]
 
 ![](https://img.shields.io/badge/ICLR2018-violet) &nbsp; [Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples
-](https://arxiv.org/pdf/1711.09325.pdf)
+](https://arxiv.org/pdf/1711.09325.pdf) ![Training]
 
 ![](https://img.shields.io/badge/ICLR2018-violet) &nbsp; [Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
-](https://arxiv.org/pdf/1706.02690.pdf)
+](https://arxiv.org/pdf/1706.02690.pdf) ![Posthoc] ![InputPreprocessing] ![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/ICLR2019-violet) &nbsp; [Do Deep Generative Models Know What They Don't Know?](https://arxiv.org/pdf/1810.09136.pdf)
+![](https://img.shields.io/badge/ICLR2019-violet) &nbsp; [Do Deep Generative Models Know What They Don't Know?](https://arxiv.org/pdf/1810.09136.pdf) ![Benchmark/Observational Analysis]
 
-![](https://img.shields.io/badge/ICLR2019-violet) &nbsp; [Deep Anomaly Detection with Outlier Exposure](https://arxiv.org/pdf/1812.04606.pdf)
+![](https://img.shields.io/badge/ICLR2019-violet) &nbsp; [Deep Anomaly Detection with Outlier Exposure](https://arxiv.org/pdf/1812.04606.pdf) ![Training]
 
 ![](https://img.shields.io/badge/ICLR2020-violet) &nbsp; [Input complexity and out-of-distribution detection with likelihood-based generative models
-](https://arxiv.org/pdf/1909.11480.pdf)
+](https://arxiv.org/pdf/1909.11480.pdf) ![Posthoc] ![Benchmark/Observational Analysis]
 
 ![](https://img.shields.io/badge/ICLR2021-violet) &nbsp; [In-N-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness
-](https://arxiv.org/pdf/2012.04550.pdf)
+](https://arxiv.org/pdf/2012.04550.pdf) ![Training] ![Benchmark/Observational Analysis] ![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/ICLR2021-violet) &nbsp; [Removing Undesirable Feature Contributions Using Out-of-Distribution Data](https://arxiv.org/pdf/2101.06639.pdf)
+![](https://img.shields.io/badge/ICLR2021-violet) &nbsp; [Removing Undesirable Feature Contributions Using Out-of-Distribution Data](https://arxiv.org/pdf/2101.06639.pdf) ![Training] ![Theoretical Analysis/Insights] ![Adversarial]
 
-![](https://img.shields.io/badge/ICLR2021-violet) &nbsp; [Multiscale Score Matching for Out-of-Distribution Detection](https://arxiv.org/pdf/2010.13132.pdf)
+![](https://img.shields.io/badge/ICLR2021-violet) &nbsp; [Multiscale Score Matching for Out-of-Distribution Detection](https://arxiv.org/pdf/2010.13132.pdf) ![Training] ![New dataset]
 
-![](https://img.shields.io/badge/ICLR2021-violet) &nbsp; [Protecting DNNs from Theft using an Ensemble of Diverse Models](https://openreview.net/pdf?id=LucJxySuJcE)
+![](https://img.shields.io/badge/ICLR2021-violet) &nbsp; [Protecting DNNs from Theft using an Ensemble of Diverse Models](https://openreview.net/pdf?id=LucJxySuJcE) ![Training] ![Adversarial]
 
-![](https://img.shields.io/badge/ICLR2021-violet) &nbsp; [SSD: A Unified Framework for Self-Supervised Outlier Detection](https://openreview.net/pdf?id=v5gjXpmR8J)
+![](https://img.shields.io/badge/ICLR2021-violet) &nbsp; [SSD: A Unified Framework for Self-Supervised Outlier Detection](https://openreview.net/pdf?id=v5gjXpmR8J) ![Training]
 
-![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution](https://arxiv.org/pdf/2202.10054.pdf)
+![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution](https://arxiv.org/pdf/2202.10054.pdf) ![Theoretical Analysis/Insights] ![Benchmark/Observational Analysis]
 
-![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [PI3NN: Out-of-distribution-aware prediction intervals from three neural networks](https://arxiv.org/pdf/2108.02327.pdf)
+![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [Meta Learning Low Rank Covariance Factors for Energy Based Deterministic Uncertainty](https://openreview.net/pdf?id=GQd7mXSPua) ![Training] 
 
-![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [Meta Learning Low Rank Covariance Factors for Energy Based Deterministic Uncertainty](https://openreview.net/pdf?id=GQd7mXSPua)
-
-![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [VOS: Learning What You Don't Know by Virtual Outlier Synthesis](https://openreview.net/pdf?id=TW7d65uYu5M)
+![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [VOS: Learning What You Don't Know by Virtual Outlier Synthesis](https://openreview.net/pdf?id=TW7d65uYu5M) ![Training] ![Posthoc]
 
 ![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [A Statistical Framework for Efficient Out of Distribution Detection in Deep Neural Networks](https://openreview.net/pdf?id=Oy9WeuZD51)
+![Others]
 
-![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [Revisiting flow generative models for Out-of-distribution detection](https://openreview.net/pdf?id=6y2KBh-0Fd9)
+![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [Revisiting flow generative models for Out-of-distribution detection](https://openreview.net/pdf?id=6y2KBh-0Fd9) ![Posthoc]
 
-![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [Igeood: An Information Geometry Approach to Out-of-Distribution Detection](https://openreview.net/pdf?id=mfwdY3U_9ea)
+![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [Igeood: An Information Geometry Approach to Out-of-Distribution Detection](https://openreview.net/pdf?id=mfwdY3U_9ea) ![Posthoc]
 
 ![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Extremely Simple Activation Shaping for Out-of-Distribution Detection](https://openreview.net/forum?id=ndYXTEL6cZz)
 
@@ -236,4 +237,6 @@ Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2023/pa
 [New dataseta]: https://img.shields.io/badge/New_dataset-f4d5b3?style=social&logo=data:image/png;base64,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
 
 [Multimodal]: https://img.shields.io/badge/Multimodal-white
+
+[Others]: https://img.shields.io/badge/Others-white
 
