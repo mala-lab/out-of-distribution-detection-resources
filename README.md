@@ -67,11 +67,9 @@ Score For Variational Auto-encoder](https://arxiv.org/pdf/2003.02977.pdf) ![Post
 
 ![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Is Out-of-Distribution Detection Learnable?](https://openreview.net/pdf?id=sde_7ZzGXOE) ![Theoretical Analysis/Insights]
 
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Your Out-of-Distribution Detection Method is Not Robust](https://openreview.net/pdf?id=YUEP3ZmkL1) ![Training] ![Adversarial]
 
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Your Out-of-Distribution Detection Method is Not Robust!](https://openreview.net/pdf?id=YUEP3ZmkL1) ![Training] ![Adversarial]  <Generative>
-
-![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [RankFeat: Rank-1 Feature Removal for Out-of-distribution Detection](https://openreview.net/pdf?id=-deKNiSOXLG)
-![Posthoc] ![Theoretical Analysis/Insights]
+![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [RankFeat: Rank-1 Feature Removal for Out-of-distribution Detection](https://openreview.net/pdf?id=-deKNiSOXLG) ![Posthoc] ![Theoretical Analysis/Insights]
 
 ![](https://img.shields.io/badge/NeurIPS2022-blue) &nbsp; [Out-of-Distribution Detection with An Adaptive Likelihood Ratio on Informative Hierarchical VAE](https://openreview.net/pdf?id=vMQ1V_z0TxU) ![Training] ![Theoretical Analysis/Insights]
 
