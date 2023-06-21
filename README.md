@@ -17,7 +17,7 @@ This repository is a collection of representative works published at top-tier co
 
 ![Benchmark/Observational Analysis]: New benchmark, evaluation protocol or problem setting is introduced. Comparison between existing methods are thoroughly demonstrated and discussed to address some research questions and provide insights on their limitation, and novel findings based on experimental results.
 
-![InputPreprocessing]: Inputs are preprocessed(pertubated) before being fed to the model.
+![InputPreprocessing]: Inputs are preprocessed(pertubated) before being fed to the model. There could be data augmentation step as well to enhance learning performance.
 
 ![New dataset]: A novel OOD dataset from other domain is introduced (not including images, texts, or graphs) within the evaluation protocol.
 
@@ -125,25 +125,21 @@ Score For Variational Auto-encoder](https://arxiv.org/pdf/2003.02977.pdf) ![Post
 
 ![](https://img.shields.io/badge/ICLR2022-violet) &nbsp; [Igeood: An Information Geometry Approach to Out-of-Distribution Detection](https://openreview.net/pdf?id=mfwdY3U_9ea) ![Posthoc]
 
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Extremely Simple Activation Shaping for Out-of-Distribution Detection](https://openreview.net/forum?id=ndYXTEL6cZz)
+![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Extremely Simple Activation Shaping for Out-of-Distribution Detection](https://openreview.net/forum?id=ndYXTEL6cZz) ![Posthoc]
 
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Non-parametric Outlier Synthesis](https://openreview.net/forum?id=JHklpEZqduQ)
+![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Non-parametric Outlier Synthesis](https://openreview.net/forum?id=JHklpEZqduQ) ![Others] ![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Efficient Out-of-Distribution Detection based on In-Distribution Data Patterns Memorization with Modern Hopfield Energy](https://openreview.net/forum?id=KkazG4lgKL)
+![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Out-of-Distribution Detection based on In-Distribution Data Patterns Memorization with Modern Hopfield Energy](https://openreview.net/forum?id=KkazG4lgKL) ![Posthoc] ![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection?](https://openreview.net/forum?id=aEFaE0W5pAd)
+![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection?](https://openreview.net/forum?id=aEFaE0W5pAd) ![Training]
 
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Out-of-distribution Detection with Implicit Outlier Transformation](https://openreview.net/forum?id=hdghx6wbGuD)
+![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Out-of-distribution Detection with Implicit Outlier Transformation](https://openreview.net/forum?id=hdghx6wbGuD)  ![Training] ![InputPreprocessing]
 
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Energy-based Out-of-Distribution Detection for Graph Neural Networks](https://openreview.net/forum?id=zoz7Ze4STUL)
+![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Harnessing Out-Of-Distribution Examples via Augmenting Content and Style](https://openreview.net/forum?id=boNyg20-JDm)![Training] ![InputPreprocessing]
 
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Harnessing Out-Of-Distribution Examples via Augmenting Content and Style](https://openreview.net/forum?id=boNyg20-JDm)
+![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Turning the Curse of Heterogeneity in Federated Learning into a Blessing for Out-of-Distribution Detection](https://openreview.net/forum?id=mMNimwRb7Gr) ![Others] ![Benchmark/Observational Analysis] 
 
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Turning the Curse of Heterogeneity in Federated Learning into a Blessing for Out-of-Distribution Detection](https://openreview.net/forum?id=mMNimwRb7Gr)
-
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [A framework for benchmarking Class-out-of-distribution detection and its application to ImageNet](https://openreview.net/forum?id=Iuubb9W6Jtk)
-
-![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [Out-of-Distribution Detection and Selective Generation for Conditional Language Models](https://openreview.net/forum?id=kJUS5nD0vPB)
+![](https://img.shields.io/badge/ICLR2023-violet) &nbsp; [A framework for benchmarking Class-out-of-distribution detection and its application to ImageNet](https://openreview.net/forum?id=Iuubb9W6Jtk) ![Benchmark/Observational Analysis] 
 
 
 ### CVPR
