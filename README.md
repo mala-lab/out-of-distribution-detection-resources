@@ -19,9 +19,9 @@ This repository is a collection of representative works published at top-tier co
 
 ![InputPreprocessing]: Inputs are preprocessed(pertubated) before being fed to the model. There could be data augmentation step as well to enhance learning performance.
 
-![New dataset]: A novel OOD dataset is introduced
+![New dataset]: A novel OOD dataset is introduced.
 
-![Multimodal]: Other modalities are also incorporated, possibly large pretrained multimodal model for vision and langauge is exploited, for example CLIP, etc.
+![Multimodal]: Other modalities are also incorporated, possibly large pretrained multimodal model for vision and language is exploited, for example CLIP, etc.
 
 ![Others]: Papers with this tag are quite niche and they contribute with something new which is unlike to most of other OOD papers. They could be uncommon novel framework for solving OOD problems or special relevant combination of OOD with an existing challenging problem such as few-shot, one-shot, long-tail, etc.
 
