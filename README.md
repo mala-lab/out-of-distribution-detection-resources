@@ -19,7 +19,7 @@ This repository is a collection of representative works published at top-tier co
 
 ![InputPreprocessing]: Inputs are preprocessed(pertubated) before being fed to the model. There could be data augmentation step as well to enhance learning performance.
 
-![New dataset]: A novel OOD dataset from other domain is introduced (not including images, texts, or graphs) within the evaluation protocol.
+![New dataset]: A novel OOD dataset is introduced
 
 ![Multimodal]: Other modalities are also incorporated, possibly large pretrained multimodal model for vision and langauge is exploited, for example CLIP, etc.
 
@@ -144,60 +144,60 @@ Score For Variational Auto-encoder](https://arxiv.org/pdf/2003.02977.pdf) ![Post
 
 ### CVPR
 
-![](https://img.shields.io/badge/CVPR19-green) &nbsp; [Why ReLU networks yield high-confidence predictions far away from the training data and how to mitigate the problem](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hein_Why_ReLU_Networks_Yield_HighConfidence_Predictions_Far_Away_From_the_CVPR_2019_paper.pdf)
+![](https://img.shields.io/badge/CVPR19-green) &nbsp; [Why ReLU networks yield high-confidence predictions far away from the training data and how to mitigate the problem](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hein_Why_ReLU_Networks_Yield_High-Confidence_Predictions_Far_Away_From_the_CVPR_2019_paper.pdf) ![Training] ![Benchmark/Observational Analysis] ![Adversarial]
 
-![](https://img.shields.io/badge/CVPR20-green) &nbsp; [Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hsu_Generalized_ODIN_Detecting_Out-of-Distribution_Image_Without_Learning_From_Out-of-Distribution_Data_CVPR_2020_paper.pdf)
+![](https://img.shields.io/badge/CVPR20-green) &nbsp; [Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hsu_Generalized_ODIN_Detecting_Out-of-Distribution_Image_Without_Learning_From_Out-of-Distribution_Data_CVPR_2020_paper.pdf) ![Posthoc] ![InputPreprocessing]
 
-![](https://img.shields.io/badge/CVPR20-green) &nbsp; [Deep Residual Flow for Out of Distribution Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zisselman_Deep_Residual_Flow_for_Out_of_Distribution_Detection_CVPR_2020_paper.pdf)
+![](https://img.shields.io/badge/CVPR20-green) &nbsp; [Deep Residual Flow for Out of Distribution Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zisselman_Deep_Residual_Flow_for_Out_of_Distribution_Detection_CVPR_2020_paper.pdf) ![Posthoc] ![InputPreprocessing]
 
-![](https://img.shields.io/badge/CVPR21-green) &nbsp; [MOS: Towards Scaling Out-of-distribution Detection for Large Semantic Space](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MOS_Towards_Scaling_Out-of-Distribution_Detection_for_Large_Semantic_Space_CVPR_2021_paper.pdf)
+![](https://img.shields.io/badge/CVPR21-green) &nbsp; [MOS: Towards Scaling Out-of-distribution Detection for Large Semantic Space](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MOS_Towards_Scaling_Out-of-Distribution_Detection_for_Large_Semantic_Space_CVPR_2021_paper.pdf) ![Posthoc] ![New dataset]
 
-![](https://img.shields.io/badge/CVPR21-green) &nbsp; [Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces](https://openaccess.thecvf.com/content/CVPR2021/papers/Zaeemzadeh_Out-of-Distribution_Detection_Using_Union_of_1-Dimensional_Subspaces_CVPR_2021_paper.pdf)
+![](https://img.shields.io/badge/CVPR21-green) &nbsp; [Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces](https://openaccess.thecvf.com/content/CVPR2021/papers/Zaeemzadeh_Out-of-Distribution_Detection_Using_Union_of_1-Dimensional_Subspaces_CVPR_2021_paper.pdf) ![Training] ![Posthoc]
 
-![](https://img.shields.io/badge/CVPR21-green) &nbsp; [MOOD: Multi-level Out-of-distribution Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_MOOD_Multi-Level_Out-of-Distribution_Detection_CVPR_2021_paper.pdf)
+![](https://img.shields.io/badge/CVPR21-green) &nbsp; [MOOD: Multi-level Out-of-distribution Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_MOOD_Multi-Level_Out-of-Distribution_Detection_CVPR_2021_paper.pdf) ![Posthoc]
 
-![](https://img.shields.io/badge/CVPR22-green) &nbsp; [Deep Hybrid Models for Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2022/papers/Cao_Deep_Hybrid_Models_for_Out-of-Distribution_Detection_CVPR_2022_paper.pdf)
+![](https://img.shields.io/badge/CVPR22-green) &nbsp; [Deep Hybrid Models for Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2022/papers/Cao_Deep_Hybrid_Models_for_Out-of-Distribution_Detection_CVPR_2022_paper.pdf) ![Posthoc] ![Theoretical Analysis/Insights]
 
 ![](https://img.shields.io/badge/CVPR22-green) &nbsp; [Rethinking Reconstruction Autoencoder-Based Out-of-Distribution Detection
-](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_Rethinking_Reconstruction_Autoencoder-Based_Out-of-Distribution_Detection_CVPR_2022_paper.pdf)
+](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_Rethinking_Reconstruction_Autoencoder-Based_Out-of-Distribution_Detection_CVPR_2022_paper.pdf) ![Training]
 
-![](https://img.shields.io/badge/CVPR22-green) &nbsp; [ViM: Out-Of-Distribution with Virtual-logit Matching](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_ViM_Out-of-Distribution_With_Virtual-Logit_Matching_CVPR_2022_paper.pdf)
+![](https://img.shields.io/badge/CVPR22-green) &nbsp; [ViM: Out-Of-Distribution with Virtual-logit Matching](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_ViM_Out-of-Distribution_With_Virtual-Logit_Matching_CVPR_2022_paper.pdf) ![Posthoc] ![New dataset]
 
-![](https://img.shields.io/badge/CVPR22-green) &nbsp; [Weakly Supervised Semantic Segmentation using Out-of-Distribution Data](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Weakly_Supervised_Semantic_Segmentation_Using_Out-of-Distribution_Data_CVPR_2022_paper.pdf)
+![](https://img.shields.io/badge/CVPR22-green) &nbsp; [Weakly Supervised Semantic Segmentation using Out-of-Distribution Data](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Weakly_Supervised_Semantic_Segmentation_Using_Out-of-Distribution_Data_CVPR_2022_paper.pdf) ![Training] ![New dataset]
 
 ![](https://img.shields.io/badge/CVPR22-green) &nbsp; [Neural Mean Discrepancy for Efficient Out-of-Distribution Detection
-](https://openaccess.thecvf.com/content/CVPR2022/papers/Dong_Neural_Mean_Discrepancy_for_Efficient_Out-of-Distribution_Detection_CVPR_2022_paper.pdf)
+](https://openaccess.thecvf.com/content/CVPR2022/papers/Dong_Neural_Mean_Discrepancy_for_Efficient_Out-of-Distribution_Detection_CVPR_2022_paper.pdf) ![Posthoc] ![Benchmark/Observational Analysis]
 
 ![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Rethinking Out-of-distribution (OOD) Detection:
-Masked Image Modeling is All You Need](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Rethinking_Out-of-Distribution_OOD_Detection_Masked_Image_Modeling_Is_All_You_CVPR_2023_paper.pdf)
+Masked Image Modeling is All You Need](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Rethinking_Out-of-Distribution_OOD_Detection_Masked_Image_Modeling_Is_All_You_CVPR_2023_paper.pdf) ![Benchmark/Observational Analysis]
 
 ![](https://img.shields.io/badge/CVPR23-green) &nbsp; [LINe: Out-of-Distribution Detection by Leveraging Important Neurons
-](https://openaccess.thecvf.com/content/CVPR2023/papers/Ahn_LINe_Out-of-Distribution_Detection_by_Leveraging_Important_Neurons_CVPR_2023_paper.pdf)
+](https://openaccess.thecvf.com/content/CVPR2023/papers/Ahn_LINe_Out-of-Distribution_Detection_by_Leveraging_Important_Neurons_CVPR_2023_paper.pdf) ![Posthoc]
 
 
 ![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Balanced Energy Regularization Loss for Out-of-Distribution Detection
-](https://openaccess.thecvf.com/content/CVPR2023/papers/Choi_Balanced_Energy_Regularization_Loss_for_Out-of-Distribution_Detection_CVPR_2023_paper.pdf)
+](https://openaccess.thecvf.com/content/CVPR2023/papers/Choi_Balanced_Energy_Regularization_Loss_for_Out-of-Distribution_Detection_CVPR_2023_paper.pdf) ![Training]
 
 
 ![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Decoupling MaxLogit for Out-of-Distribution Detection
-](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Decoupling_MaxLogit_for_Out-of-Distribution_Detection_CVPR_2023_paper.pdf)
+](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Decoupling_MaxLogit_for_Out-of-Distribution_Detection_CVPR_2023_paper.pdf) ![Training] ![Posthoc] ![Benchmark/Observational Analysis]
 
 
-![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Detection of out-of-distribution samples using binary neuron activation patterns](https://openaccess.thecvf.com/content/CVPR2023/papers/Olber_Detection_of_Out-of-Distribution_Samples_Using_Binary_Neuron_Activation_Patterns_CVPR_2023_paper.pdf)
+![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Detection of out-of-distribution samples using binary neuron activation patterns](https://openaccess.thecvf.com/content/CVPR2023/papers/Olber_Detection_of_Out-of-Distribution_Samples_Using_Binary_Neuron_Activation_Patterns_CVPR_2023_paper.pdf) ![Posthoc] ![Benchmark/Observational Analysis]
 
 
-![](https://img.shields.io/badge/CVPR23-green) &nbsp; [GEN: Pushing the Limits of Softmax-Based Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_GEN_Pushing_the_Limits_of_Softmax-Based_Out-of-Distribution_Detection_CVPR_2023_paper.pdf)
+![](https://img.shields.io/badge/CVPR23-green) &nbsp; [GEN: Pushing the Limits of Softmax-Based Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_GEN_Pushing_the_Limits_of_Softmax-Based_Out-of-Distribution_Detection_CVPR_2023_paper.pdf) ![Posthoc]
 
 
 ![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Uncertainty-Aware Optimal Transport for Semantically Coherent
-Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Lu_Uncertainty-Aware_Optimal_Transport_for_Semantically_Coherent_Out-of-Distribution_Detection_CVPR_2023_paper.pdf)
+Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Lu_Uncertainty-Aware_Optimal_Transport_for_Semantically_Coherent_Out-of-Distribution_Detection_CVPR_2023_paper.pdf) ![Posthoc] ![Training]
 
 
-![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Distribution Shift Inversion for Out-of-Distribution Prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Distribution_Shift_Inversion_for_Out-of-Distribution_Prediction_CVPR_2023_paper.pdf)
+![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Distribution Shift Inversion for Out-of-Distribution Prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Distribution_Shift_Inversion_for_Out-of-Distribution_Prediction_CVPR_2023_paper.pdf) ![Posthoc] ![Theoretical Analysis/Insights]
 
-![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Block Selection Method for Using Feature Norm in Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Block_Selection_Method_for_Using_Feature_Norm_in_Out-of-Distribution_Detection_CVPR_2023_paper.pdf)
+![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Block Selection Method for Using Feature Norm in Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Block_Selection_Method_for_Using_Feature_Norm_in_Out-of-Distribution_Detection_CVPR_2023_paper.pdf) ![Posthoc]
 
-![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Are Data-driven Explanations Robust against Out-of-distribution Data?](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Are_Data-Driven_Explanations_Robust_Against_Out-of-Distribution_Data_CVPR_2023_paper.pdf)
+![](https://img.shields.io/badge/CVPR23-green) &nbsp; [Are Data-driven Explanations Robust against Out-of-distribution Data?](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Are_Data-Driven_Explanations_Robust_Against_Out-of-Distribution_Data_CVPR_2023_paper.pdf) ![Training] ![Benchmark/Observational Analysis]
 
 ### ICML
 
