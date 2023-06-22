@@ -40,7 +40,7 @@ Out-of-Distribution Samples and Adversarial Attacks](https://arxiv.org/pdf/1807.
 
 ![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Likelihood Ratios for Out-of-Distribution Detection](https://proceedings.neurips.cc/paper/2019/file/1e79596878b2320cac26dd792a6c51c9-Paper.pdf) ![Posthoc] ![Benchmark/Observational Analysis] ![New dataset] ![InputPreprocessing]
 
-![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://proceedings.neurips.cc/paper/2019/file/a2b15837edac15df90721968986f7f8e-Paper.pdf) ![Self-supervision] ![Adversarial]
+![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://proceedings.neurips.cc/paper/2019/file/a2b15837edac15df90721968986f7f8e-Paper.pdf) ![Training] ![Adversarial]
 
 ![](https://img.shields.io/badge/NeurIPS2019-blue) &nbsp; [Can you trust your model’s uncertainty? Evaluating predictive uncertainty under dataset shift.](https://proceedings.neurips.cc/paper/2019/file/8558cb408c1d76621371888657d2eb1d-Paper.pdf) ![Benchmark/Observational Analysis]
 
